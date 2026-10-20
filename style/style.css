@@ -1,0 +1,62 @@
+body {
+    background-image: url("blokjes.jpg");
+    background-repeat: repeat-y;
+    background-position: top center;
+    background-size: 100% auto;
+    min-height: 100vh;
+    margin: 0;
+    padding-top: 1
+
+}
+body {
+    min-height: 2000px;
+}
+
+
+.heading {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.heading h1,
+.heading h2 {
+    margin: 0;
+}
+
+
+h1{
+    line-height: 1;
+    margin: 0;
+
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 100px
+    ;
+}
+
+h2 a{
+        line-height: 1;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 100px;
+   color: grey;
+  text-decoration: none;
+    
+}
+h2 a.active {
+  color: black;
+}
+h2 {
+  text-align: right;
+  margin-top: 0px;
+}
+
+p{
+font-family: Arial, Helvetica, sans-serif;
+font-size: 24px;
+  background-color: white;
+  color: black;
+  padding: 10px;
+  max-width: 700px;
+  margin-top: 5px;
+}
